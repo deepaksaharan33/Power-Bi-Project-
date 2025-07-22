@@ -1,71 +1,74 @@
-Chocolate Company Sales Analysis
+🍫 Power BI Dashboard: Chocolate Company Sales & Performance Analysis
 
 <img width="1687" height="947" alt="Screenshot 2025-07-19 230353" src="https://github.com/user-attachments/assets/58e21650-27a3-4075-9410-1668eec2f864" />
 
-📊 Project Overview
+This Power BI project analyzes the operational and sales performance of a chocolate company across different regions, product types, and sales representatives. The dashboard provides a comprehensive overview of key business metrics and insights to support strategic decisions.
 
-This Power BI project presents a comprehensive data analysis of a chocolate company's performance across multiple dimensions. The dashboard is designed to provide actionable insights through interactive visualizations and detailed metrics.
 
-📁 Dataset Structure:
+🔍 Key Insights and KPIs:
 
-The dataset is composed of five primary tables, each serving a specific analytical purpose:
+-Total Sales: $17M
 
-Calendar – Contains date-level granularity to support time-based analysis.
+-Total Boxes Sold: 1M
 
-Location – Includes geographic data for regional performance tracking.
+-Total Shipments: 3K
 
-People – Holds sales and employee-related information.
+-Total Cost: $7M
 
-Products – Contains product details such as name, category, and pricing.
+-Total Profit: $10M
 
-Shipments – Core transactional data including sales, costs, profits, and shipment volumes.
+-Profit Percentage: 60.9%
 
-Key Highlights:
+-Month-over-Month (MoM) Sales Change: -10.3% (indicating a drop from the previous month)
 
--Sales Analysis: Breakdown of overall sales performance with trends and comparisons.
 
--Box Shipment Analysis: Evaluation of shipment volumes and identification of low box shipments for optimization.
+📊 Visual Highlights:
 
--Cost and Profit Analysis: Detailed examination of cost structures and profit margins.
+-Salesperson Analysis:
+A detailed breakdown of each salesperson’s performance showing:
+(Sales, Profit & Profit %
+Low Box Shipment % (LBS%)
+Visual indicators of whether LBS is within acceptable range)
 
--Salesperson Performance: Individual performance tracking to assess contribution and effectiveness.
+-Region-wise Sales Distribution:
+A donut chart displaying sales contribution from countries including India, Canada, UK, USA, New Zealand, etc.
 
--Product-Wise Analysis: Insight into top-performing and underperforming chocolate products.
+-Box-wise Trend Analysis:
+Line chart showing the monthly trend in boxes sold across the year.
 
--Month-over-Month (MoM) Trends: Analysis of MoM changes in key metrics to identify patterns and business shifts.
+-Shipment Distribution:
+A bar chart analyzing shipment frequency and volume, helpful in identifying shipment patterns or bottlenecks.
 
-Executuion:
+-Low Box Shipment % (LBS%) Indicator:
+A dedicated gauge visual shows the current LBS% at 9.35%, signaling potential inefficiencies in shipment packaging or distribution.
 
-Questions Answered from the Dataset:
 
-The Power BI dashboard provides answers to several critical business performance questions, including:
+🗂️ Dataset Structure:
 
-1)What was the total sales?
-→ Displays the overall revenue generated across all products and regions.
+The analysis uses multiple interconnected tables representing:
 
-2)What was the total number of boxes?
-→ Calculates the total quantity of chocolate boxes sold or shipped.
+-Sales transactions
 
-3)What was the total number of shipments?
-→ Shows the total shipment transactions made during the selected period.
+-Product categories (Bars, Bites, Other)
 
-4)What was the total cost?
-→ Aggregates all costs incurred in producing and delivering the products.
+-Geographical data (India, Canada, UK, USA, etc.)
 
-5)What was the total profit?
-→ Measures total earnings by subtracting costs from total sales.
+-Salesperson details
 
-6)What was the profit percentage?
-→ Represents profit as a percentage of sales to assess overall profitability.
+-Monthly timelines for MoM comparisons
 
-7)What are the Low Box Shipments (LBS)?
-→ Identifies shipments with lower-than-usual box counts to flag potential inefficiencies.
 
-8)What is the Low Box Shipment Percentage (LBS%)?
-→ Calculates the proportion of low box shipments out of the total shipments.
+🧠 Business Questions Answered:
 
-9)What are the Month-over-Month (MoM) changes?
-→ Tracks month-to-month variations in key metrics like sales, costs, and profit for trend analysis.
+-What is the total revenue, cost, and profit?
+
+-Which salesperson contributes the most to profit?
+
+-Which regions are generating the most revenue?
+
+-What’s the current MoM growth or decline in sales?
+
+-What percentage of shipments fall under the “Low Box Shipment” category?
 
 
 
